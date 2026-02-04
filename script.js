@@ -258,7 +258,7 @@
 // inp.addEventListener("keyup", function(){
 //    console.log("you typed ");
 //     console.log(input.value);
-    
+
 // });
 
 //  ------------------------Event Object ------------------!!!!!!!!!!!
@@ -268,7 +268,7 @@
 
 // ab.addEventListener("click",function(detl){
 //     console.log(detl);
-    
+
 // })
 
 //  ------------------------ !!!! Event Object !!!!------------------!!!!!!!!!!!
@@ -280,8 +280,73 @@
 // })
 
 
-let ul=document.querySelector("ul");
+// let ul=document.querySelector("ul");
 
-ul.addEventListener("click",function(dets){
-    dets.target.classList.toggle("lt");
+// ul.addEventListener("click",function(dets){
+//     dets.target.classList.toggle("lt");
+// })
+
+
+//                                    ---------!!!!!!!!!! EVENT CAPTURING !!!!!!!!!!!---------
+
+// let a = document.querySelector(".a");
+// let b = document.querySelector(".b");
+// let c = document.querySelector(".c");
+// let button = document.querySelector("button");
+
+
+// button.addEventListener("click", function () {
+//     console.log("button clicked ");
+
+// })
+// c.addEventListener("click", function () {
+//     console.log("c clicked ");
+
+// },true)
+// b.addEventListener("click", function () {
+//     console.log("b clicked ");
+
+// })
+
+// a.addEventListener("click", function () {
+//     console.log("a clicked");
+
+// },true)
+
+
+
+//  !!!!!!!!!!!!!!!!!!!!! ------------------ CHARACTER COUNT  !!!!!!!!!!!!!!!----------------
+
+// let inp = document.querySelector("input");
+// let span=document.querySelector("span");
+
+// inp.addEventListener("input",function(){
+// let left=20-inp.value.length;
+// span.textContent=left;
+// if(left<0){
+//     span.style.color="red";
+// }
+// else{
+//     span.style.color="white";
+// }
+    
+// });
+
+
+
+
+// -------------!!!!!!!! Forms And Form Validation !!!!!!!!--------------
+
+let form=document.querySelector("form");
+let nm=document.querySelector("#name");
+
+form.addEventListener("submit",function(dets){
+dets.preventDefault();
+
+if(nm.value.length <=2){
+    document.querySelector("#hide").style.display="initial"
+}
+else{
+    document.querySelector("#hide").style.display="none"
+}
 })

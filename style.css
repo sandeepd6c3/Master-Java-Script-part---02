@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(9, 0, 0); */
+  /* color: yellow; */
+}
+/* #main { */
+/* display: flex;
+  align-items: center;
+  justify-content: center; */
+/* width: 100%;
+  height: 100%; */
+/* background-color: rgb(114, 106, 91); */
+/* } */
+
+/* input {
+  display: none;
+}
+#main #btn{
+  padding: 12px 22px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(62, 148, 62);
+}
+#btn:hover {
+  background: rgb(4, 66, 4);
+} */
+/* 
+#main {
+   
+  padding: 40px;
+  user-select: none;
+}
+
+input {
+  display: block;
+  /* background: black; */
+/* } 
+/* .card{
+  max-width: 300px;
+  margin : 40px;
+  padding: 20px ;
+  border-radius: 5px;
+  border: 1px solid #555;
+  display: inline-block;
+  color: white;
+}
+.profile{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.card p{
+  margin-top: 10px;
+  font-size: 12px;
+} */
+
+/* #main {
+   padding: 100px;
+  max-width: 200px;
+  display: inline-block;
+}
+#main input {
+  width: 150px;
+}
+
+.card {
+ max-width: 300px;
+  margin : 40px;
+  padding: 20px ;
+  border-radius: 5px;
+  border: 1px solid #555;
+  display: inline-block;
+  color: white;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+.profile img {
+   width: 100%;
+   height: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  padding-bottom: 5px;
+}
+.card.h5{
+  margin-bottom: 10px;
+}
+.card p{
+  font-size: 12px;
+} */
+
+ /* body{
+  position: relative;
+  overflow: hidden;
+} */
+
+ /* #ab{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+ } */
+
+
+
+ /* #main{
+  width: 100%;
+  height: 100%;
+
+ }
+ #nav{
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  display: flex;
+align-items: center;
+justify-content: space-around;
+ } */
+
+ul{
+  padding: 90px;
+  font-size: 50px;
+  user-select: none;
+}
+ .lt{
+  text-decoration: line-through;
+ }
+

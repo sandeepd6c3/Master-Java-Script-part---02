@@ -349,4 +349,14 @@ if(nm.value.length <=2){
 else{
     document.querySelector("#hide").style.display="none"
 }
+
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+let ans=emailRegex.test("s@s.com");
+console.log(ans);
+
+const usernameRegex = /^[a-zA-Z0-9_]{3,16}$/;
+let user=usernameRegex.test("sandeep")
+console.log(user);
+
+
 })

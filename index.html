@@ -85,18 +85,43 @@
 
     <!-- -------------!!!!!!!! Forms And Form Validation !!!!!!!!-------------- -->
 
-    <form action="">
-      <input type="name" placeholder="Name" id="name">
+    <!-- <form action="">
+      <input  type="name" placeholder="Name" id="name">
      <div id="hide">
        <br>
       <small>your name should be graterthen 2 characters </small>
      </div>
       <br>
-      <input type="email" placeholder="Email">
+      <input  type="email" placeholder="Email">
       <br>
 
       <button>Submit</button>
+    </form> -->
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!------- Email Password Validator !!!!!!!!!!-->
+
+     <div class="container">
+    <h2>Email & Password Validator</h2>
+
+    <form id="form">
+      <div class="input-group">
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter email">
+        <small id="emailError"></small>
+      </div>
+
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small id="passError"></small>
+      </div>
+
+      <button type="submit">Validate</button>
     </form>
+  </div>
+
 
     <script src="script.js"></script>
   </body>

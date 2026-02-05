@@ -175,14 +175,14 @@ justify-content: space-around;
 
 /* !!!!!!!!!!!!!!!!------------ Character Count ---------------!!!!!!!!!! */
 
-input {
+/* input {
   height: 40px;
   width: 200px;
   font-size: 20px;
   text-align: center;
   /* margin-bottom: 30px; */
-}
-button {
+/* } */
+/* button {
   height: 40px;
   width: 200px;
   font-size: 30px;
@@ -191,12 +191,76 @@ button {
   background-color: green;
 }
 small {
-  /* margin-left: 30px; */
+   
   color: red;
   font-size: 15px;
-  /* display: none; */
+
   
 }
 #hide{
   display: none;
+}  */
+
+
+/*  !!!!!!!!!!!!!!!!------------- Email password Validator --------- */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgb(35, 110, 172);
+  padding: 25px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+small {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #00ff26;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00b30f;
 }
